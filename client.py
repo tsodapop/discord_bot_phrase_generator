@@ -80,7 +80,7 @@ def fetch_token(token_name="discord_token"):
     """
     # token = os.environ.get(token_name)
     token = os.environ.get("discord_token")
-    token = "MTAzMzA3MDYwNDQ5ODIzOTU2OA.G3_69L.3TGv7r5ZrMUgPNe7nydiw2zplVw42gKJ1i8UM4"
+    token = "INSERTTOKENHERE"
     if token is None:
         raise Exception(
             f"Could not find token under variable name '{token_name}'")
